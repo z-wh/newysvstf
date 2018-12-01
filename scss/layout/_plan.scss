@@ -1,0 +1,21 @@
+.plan {
+    width: px2rem(710px);
+    height: px2rem(500px);
+    padding: px2rem(20px);
+    background: url('/images/plan_bg.jpg') no-repeat center center;
+    background-size: cover;
+
+    a {
+        width: px2rem(500px);
+        height: px2rem(80px);
+        margin: px2rem(367px) auto 0;
+        background: $shenhuang;
+        line-height: px2rem(80px);
+        color: $bai;
+
+        &:hover {
+            background: $huang;
+            color: $hei;
+        }
+    }
+}

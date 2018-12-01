@@ -1,0 +1,21 @@
+.contury {
+    background: $hui;
+    margin: px2rem(20px) 0;
+    padding: px2rem(30px);
+    background-size: cover;
+
+    #tittle-contury {
+        width: px2rem(690px);
+        height: px2rem(100px);
+        margin: px2rem(20px) auto;
+        background: url('/images/tittle-contury.png') no-repeat center center;
+        background-size: cover;
+    }
+
+    img {
+        width: px2rem(608px);
+        height: px2rem(400px);
+    }
+
+    
+}

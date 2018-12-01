@@ -1,0 +1,31 @@
+#tittle-examdesc {
+    width: px2rem(690px);
+    height: px2rem(100px);
+    margin: px2rem(20px) auto;
+    background: url('/images/tittle-examdesc.png') no-repeat center center;
+    background-size: cover;
+
+}
+
+.examdesc-slide {
+
+    img {
+        width: px2rem(690px);
+        margin: px2rem(20px) auto;
+    }
+
+}
+
+.examdesc-con {
+    margin: 0 0 px2rem(20px);
+    background: $danhui;
+}
+
+.examdesc-slide-thumb {
+    height: px2rem(80px);
+    background: $dancheng;
+    font: px2rem(30px) / px2rem(80px) "Microsoft Yahei", sans-serif;
+    text-align: center;
+}
+
+

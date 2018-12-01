@@ -1,0 +1,96 @@
+#tittle-what {
+    width: px2rem(690px);
+    height: px2rem(100px);
+    margin: px2rem(20px) auto;
+    background: url('/images/tittle-what.png') no-repeat center center;
+    background-size: cover;
+}
+
+.con-what {
+    width: px2rem(650px);
+    // height: px2rem(960px);
+    padding: px2rem(20px);
+    margin: px2rem(20px) auto;
+    border-radius: px2rem(10px);
+    box-shadow: 0 0 px2rem(20px) $shenhui;
+
+    img {
+        width: px2rem(650px);
+        height: px2rem(392px);
+    }
+
+    span {
+        display: block;
+        width: px2rem(300px);
+        height: px2rem(42px);
+        margin: px2rem(25px) 0;
+        font: px2rem(25px) / px2rem(42px) "Microsoft Yahei", sans-serif;
+        text-indent: px2rem(45px);
+        color: $bai;
+    }
+
+    .ys {
+        background: url('/images/indexyd_11.jpg') no-repeat center center;
+        background-size: cover;
+    }
+
+    .tf {
+        background: url('/images/indexyd_16.jpg') no-repeat center center;
+        background-size: cover;
+
+    }
+
+    p {
+        font: px2rem(25px) / 1.5em "Microsoft Yahei", sans-serif;
+    }
+
+    b {
+        display: block;
+        margin: px2rem(10px) 0;
+        height: px2rem(40px);
+        background-color: $zi;
+        line-height: px2rem(40px);
+        text-align: center;
+        color: $bai;
+    }
+
+    .tf-bt {
+        background-color: $cheng;
+    }
+
+    
+
+}
+
+.my-pagination-progressbar {
+    background: $huang;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transform-origin: left top;
+    -ms-transform-origin: left top;
+    transform-origin: left top;
+}
+
+.my-slide-thumb {
+    width: px2rem(120px);
+    height: px2rem(80px);
+    background: $dancheng;
+    font: px2rem(30px) / px2rem(80px) "Microsoft Yahei", sans-serif;
+    color: $bai;
+    text-align: center;
+}
+
+.my-slide-thumb-active {
+    width: px2rem(120px);
+    height: px2rem(80px);
+    background: $cheng;
+    font: px2rem(30px) / px2rem(80px) "Microsoft Yahei", sans-serif;
+    color: $bai;
+    text-align: center;
+}

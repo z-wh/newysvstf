@@ -1,0 +1,648 @@
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+span,
+a,
+img,
+input,
+ul,
+li,
+ol,
+dl,
+dt,
+dd,
+table,
+tr,
+td,
+p {
+  border: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+img {
+  width: 100%;
+  border: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix::after {
+  clear: both;
+  content: '.';
+  display: block;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+.btn-primary {
+  display: block;
+  width: 4rem;
+  height: 0.8rem;
+  background-color: #e2e2e2;
+  font: 0.4rem/0.8rem "Microsoft Yahei", sans-serif;
+  text-align: center;
+  border-radius: 0.13333rem;
+}
+
+.btn-primary:hover {
+  background: #9c9c9c;
+}
+
+.btn-primary-contury {
+  width: 5.33333rem;
+  height: 1.06667rem;
+  margin: 0.4rem auto 0;
+  font: 0.4rem/1.06667rem "Microsoft Yahei", sans-serif;
+  text-align: center;
+  background: #ff9200;
+  color: #fff;
+}
+
+.btn-primary-contury:hover {
+  background: #ffd300;
+  color: #000;
+}
+
+.btn-primary-examdesc {
+  width: 5.33333rem;
+  height: 1.06667rem;
+  margin: 0.26667rem auto;
+  font: 0.4rem/1.06667rem "Microsoft Yahei", sans-serif;
+  background: #271f34;
+  color: #fff;
+}
+
+.btn-primary-examdesc:hover {
+  width: 5.28rem;
+  border: 0.02667rem solid #271f34;
+  background: #4e465b;
+}
+
+.btn-primary-ys {
+  width: 5.33333rem;
+  height: 1.06667rem;
+  margin: 0.4rem auto 0.26667rem;
+  background: #271f34;
+  line-height: 1.06667rem;
+  color: #fff;
+}
+
+.btn-primary-ys:hover {
+  background: #4e465b;
+}
+
+.btn-primary-tf {
+  width: 5.33333rem;
+  height: 1.06667rem;
+  margin: 0.4rem auto 0.26667rem;
+  background: #ff5d1a;
+  line-height: 1.06667rem;
+  color: #fff;
+}
+
+.btn-primary-tf:hover {
+  background: #fd814a;
+}
+
+.banner {
+  width: 10rem;
+  height: 6.93333rem;
+  background: url("/images/indexyd_01.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.banner .btn-primary {
+  float: left;
+  width: 4.34667rem;
+  height: 0.86667rem;
+  line-height: 0.86667rem;
+  margin: 5.25333rem 0 0 5.25333rem;
+  background-color: #ffd300;
+  color: #271f34;
+}
+
+.banner .btn-primary:hover {
+  background-color: #ff5d1a;
+  color: #fff;
+}
+
+.tab-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 10rem;
+  height: 1.13333rem;
+  background-color: #ff5d1a;
+  font: 0.29333rem/1.13333rem "Microsoft Yahei", sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.tab-nav a {
+  display: block;
+  color: #fff;
+}
+
+.tab-nav a:active {
+  background: #ff9200;
+  color: #000;
+}
+
+#tittle-what {
+  width: 9.2rem;
+  height: 1.33333rem;
+  margin: 0.26667rem auto;
+  background: url("/images/tittle-what.png") no-repeat center center;
+  background-size: cover;
+}
+
+.con-what {
+  width: 8.66667rem;
+  padding: 0.26667rem;
+  margin: 0.26667rem auto;
+  border-radius: 0.13333rem;
+  -webkit-box-shadow: 0 0 0.26667rem #9c9c9c;
+          box-shadow: 0 0 0.26667rem #9c9c9c;
+}
+
+.con-what img {
+  width: 8.66667rem;
+  height: 5.22667rem;
+}
+
+.con-what span {
+  display: block;
+  width: 4rem;
+  height: 0.56rem;
+  margin: 0.33333rem 0;
+  font: 0.33333rem/0.56rem "Microsoft Yahei", sans-serif;
+  text-indent: 0.6rem;
+  color: #fff;
+}
+
+.con-what .ys {
+  background: url("/images/indexyd_11.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.con-what .tf {
+  background: url("/images/indexyd_16.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.con-what p {
+  font: 0.33333rem/1.5em "Microsoft Yahei", sans-serif;
+}
+
+.con-what b {
+  display: block;
+  margin: 0.13333rem 0;
+  height: 0.53333rem;
+  background-color: #271f34;
+  line-height: 0.53333rem;
+  text-align: center;
+  color: #fff;
+}
+
+.con-what .tf-bt {
+  background-color: #ff5d1a;
+}
+
+.my-pagination-progressbar {
+  background: #ffd300;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transform-origin: left top;
+  transform-origin: left top;
+}
+
+.my-slide-thumb {
+  width: 1.6rem;
+  height: 1.06667rem;
+  background: #fd814a;
+  font: 0.4rem/1.06667rem "Microsoft Yahei", sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.my-slide-thumb-active {
+  width: 1.6rem;
+  height: 1.06667rem;
+  background: #ff5d1a;
+  font: 0.4rem/1.06667rem "Microsoft Yahei", sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.footer {
+  width: 10rem;
+  padding: 0.4rem 0 40px;
+  background: #ff5d1a;
+  font: 0.24rem/1.6em "Microsoft Yahei", sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.contury {
+  background: #d7d6d9;
+  margin: 0.26667rem 0;
+  padding: 0.4rem;
+  background-size: cover;
+}
+
+.contury #tittle-contury {
+  width: 9.2rem;
+  height: 1.33333rem;
+  margin: 0.26667rem auto;
+  background: url("/images/tittle-contury.png") no-repeat center center;
+  background-size: cover;
+}
+
+.contury img {
+  width: 8.10667rem;
+  height: 5.33333rem;
+}
+
+#tittle-examdesc {
+  width: 9.2rem;
+  height: 1.33333rem;
+  margin: 0.26667rem auto;
+  background: url("/images/tittle-examdesc.png") no-repeat center center;
+  background-size: cover;
+}
+
+.examdesc-slide img {
+  width: 9.2rem;
+  margin: 0.26667rem auto;
+}
+
+.examdesc-con {
+  margin: 0 0 0.26667rem;
+  background: #e2e2e2;
+}
+
+.examdesc-slide-thumb {
+  height: 1.06667rem;
+  background: #fd814a;
+  font: 0.4rem/1.06667rem "Microsoft Yahei", sans-serif;
+  text-align: center;
+}
+
+#tittle-summary {
+  width: 9.2rem;
+  height: 1.33333rem;
+  margin: 0.26667rem auto;
+  background: url("/images/tittle-summary.png") no-repeat center center;
+  background-size: cover;
+}
+
+.kemu {
+  width: 10rem;
+  height: 5.2rem;
+  background: #fdaf47;
+  background-size: cover;
+}
+
+.kemu .summary-kemu {
+  float: left;
+  width: 4.08rem;
+  height: 3.41333rem;
+}
+
+.kemu .summary-kemu a {
+  display: block;
+  float: left;
+  width: 2.04rem;
+  height: 1.70667rem;
+}
+
+.kemu .summary-kemu-ielts {
+  margin: 0.86667rem 0 0 0.6rem;
+}
+
+.kemu .summary-kemu-ielts a:first-child {
+  background: url("/images/summary_01_01.png") no-repeat center center;
+  background-size: cover;
+}
+
+.kemu .summary-kemu-ielts a:nth-child(2) {
+  background: url("/images/summary_01_02.png") no-repeat center center;
+  background-size: cover;
+}
+
+.kemu .summary-kemu-ielts a:nth-child(3) {
+  background: url("/images/summary_01_03.png") no-repeat center center;
+  background-size: cover;
+}
+
+.kemu .summary-kemu-ielts a:nth-child(4) {
+  background: url("/images/summary_01_04.png") no-repeat center center;
+  background-size: cover;
+}
+
+.kemu .summary-kemu-tofel {
+  float: right;
+  margin: 0.86667rem 0.6rem 0 0;
+}
+
+.kemu .summary-kemu-tofel a:first-child {
+  background: url("/images/summary_02_01.png") no-repeat center center;
+  background-size: cover;
+}
+
+.kemu .summary-kemu-tofel a:nth-child(2) {
+  background: url("/images/summary_02_02.png") no-repeat center center;
+  background-size: cover;
+}
+
+.kemu .summary-kemu-tofel a:nth-child(3) {
+  background: url("/images/summary_02_03.png") no-repeat center center;
+  background-size: cover;
+}
+
+.kemu .summary-kemu-tofel a:nth-child(4) {
+  background: url("/images/summary_02_04.png") no-repeat center center;
+  background-size: cover;
+}
+
+.summary-slide img {
+  width: 10rem;
+}
+
+.score {
+  width: 10rem;
+  height: 5.2rem;
+  background: url("/images/summary_02.png") no-repeat center center;
+  background-size: cover;
+}
+
+.score a:first-child {
+  float: left;
+  margin: 4.13333rem auto auto 0.53333rem;
+  background: #271f34;
+  color: #fff;
+}
+
+.score a:first-child:hover {
+  width: 3.94667rem;
+  height: 0.74667rem;
+  background: #4e465b;
+  border: 0.02667rem solid #271f34;
+}
+
+.score a:last-child {
+  float: right;
+  margin: 4.13333rem 0.53333rem auto auto;
+  background: #ff5d1a;
+  color: #fff;
+}
+
+.score a:last-child:hover {
+  background: #fd814a;
+}
+
+.charge {
+  width: 10rem;
+  height: 5.2rem;
+  background: url("/images/summary_03.png") no-repeat center center;
+  background-size: cover;
+}
+
+.charge a:first-child {
+  float: left;
+  margin: 4rem auto auto 0.66667rem;
+  background: #271f34;
+  color: #fff;
+}
+
+.charge a:first-child:hover {
+  width: 3.94667rem;
+  height: 0.74667rem;
+  background: #4e465b;
+  border: 0.02667rem solid #271f34;
+}
+
+.charge a:last-child {
+  float: right;
+  margin: 4rem 0.66667rem auto auto;
+  background: #ff5d1a;
+  color: #fff;
+}
+
+.charge a:last-child:hover {
+  background: #fd814a;
+}
+
+.standard {
+  width: 10rem;
+  height: 5.2rem;
+  background: url("/images/summary_04.png") no-repeat center center;
+  background-size: cover;
+}
+
+.standard a:first-child {
+  float: left;
+  width: 3.41333rem;
+  height: 2.61333rem;
+  margin: 1.38667rem auto auto 1.46667rem;
+  background: none;
+}
+
+.standard a:nth-child(2) {
+  float: left;
+  width: 3.41333rem;
+  height: 2.61333rem;
+  margin: 1.38667rem auto auto 1.29333rem;
+  background: none;
+}
+
+.standard a:nth-child(3) {
+  float: left;
+  margin: 0.16rem auto auto 0.66667rem;
+  background: #271f34;
+  color: #fff;
+}
+
+.standard a:nth-child(3):hover {
+  width: 3.94667rem;
+  height: 0.74667rem;
+  background: #4e465b;
+  border: 0.02667rem solid #271f34;
+}
+
+.standard a:last-child {
+  float: right;
+  margin: 0.16rem 0.66667rem auto auto;
+  background: #ff5d1a;
+  color: #fff;
+}
+
+.standard a:last-child:hover {
+  background: #fd814a;
+}
+
+.yuyue {
+  width: 9.2rem;
+  margin: 0.26667rem auto;
+  padding: 0.4rem 0;
+  border-radius: 0.4rem;
+  background: url("/images/form_bg.png") repeat-y top center;
+}
+
+.yuyue p {
+  display: block;
+  width: 5.89333rem;
+  margin: 0 auto 0.26667rem;
+  font: 0.48rem/1.5em "Microsoft Yahei", sans-serif;
+  color: #fff;
+}
+
+.yuyue p b {
+  color: #271f34;
+}
+
+.yuyue input {
+  display: block;
+  width: 6.66667rem;
+  height: 0.93333rem;
+  margin: 0.26667rem auto;
+  font: 0.4rem/0.93333rem "Microsoft Yahei", sans-serif;
+  text-indent: 0.32rem;
+  border-radius: 0.13333rem;
+}
+
+.yuyue a {
+  display: block;
+  width: 6.66667rem;
+  height: 0.93333rem;
+  margin: 0.26667rem auto;
+  background: #ffb08d;
+  font: 0.4rem/0.93333rem "Microsoft Yahei", sans-serif;
+  text-align: center;
+  border-radius: 0.13333rem;
+}
+
+.yuyue a:hover {
+  background: #ffd300;
+}
+
+#tittle-exchange {
+  width: 9.2rem;
+  height: 1.33333rem;
+  margin: 0.26667rem auto;
+  background: url("/images/tittle-exchange.png") no-repeat center center;
+  background-size: cover;
+}
+
+.exchange {
+  width: 10rem;
+  height: 10.26667rem;
+  margin: 0.26667rem auto;
+  background: url("/images/exchange_bg.png") no-repeat center center;
+  background-size: cover;
+}
+
+#tittle-how {
+  width: 9.2rem;
+  height: 1.33333rem;
+  margin: 0.26667rem auto;
+  background: url("/images/tittle-how.png") no-repeat center center;
+  background-size: cover;
+}
+
+.how-container {
+  width: 8.13333rem;
+  margin: 0 auto 0.53333rem;
+  padding: 0.53333rem;
+  border: 0.02667rem solid #ff5d1a;
+  border-top: 0;
+  border-radius: 0 0 0.13333rem 0.13333rem;
+  -webkit-box-shadow: 0 0 0.26667rem #9c9c9c;
+          box-shadow: 0 0 0.26667rem #9c9c9c;
+}
+
+.how-container li {
+  margin: 0.13333rem 0;
+  font: bold 0.42667rem/0.8rem "Microsoft Yahei", sans-serif;
+  color: #ff5d1a;
+}
+
+.how-container li span {
+  float: left;
+  display: block;
+  width: 4rem;
+}
+
+.how-container li a {
+  float: right;
+  background: #ff5d1a;
+  color: #fff;
+}
+
+.how-container li a:hover {
+  background: #fd814a;
+}
+
+.how-container-tofel {
+  border-color: #271f34;
+}
+
+.how-container-tofel li {
+  color: #271f34;
+}
+
+.how-container-tofel li a {
+  background: #271f34;
+}
+
+.how-container-tofel li a:hover {
+  background: #4e465b;
+}
+
+.plan {
+  width: 9.46667rem;
+  height: 6.66667rem;
+  padding: 0.26667rem;
+  background: url("/images/plan_bg.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.plan a {
+  width: 6.66667rem;
+  height: 1.06667rem;
+  margin: 4.89333rem auto 0;
+  background: #ff9200;
+  line-height: 1.06667rem;
+  color: #fff;
+}
+
+.plan a:hover {
+  background: #ffd300;
+  color: #000;
+}
+/*# sourceMappingURL=main.css.map */

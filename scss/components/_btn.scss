@@ -1,0 +1,69 @@
+.btn-primary {
+    display: block;
+    width: px2rem(300px);
+    height: px2rem(60px);
+    background-color: $danhui;
+    font: px2rem(30px) / px2rem(60px) "Microsoft Yahei", sans-serif;
+    text-align: center;
+    border-radius: px2rem(10px);
+
+    &:hover {
+        background: $shenhui;
+    }
+}
+
+.btn-primary-contury {
+    width: px2rem(400px);
+    height: px2rem(80px);
+    margin: px2rem(30px) auto 0;
+    font: px2rem(30px) / px2rem(80px) "Microsoft Yahei", sans-serif;
+    text-align: center;
+    background: $shenhuang;
+    color: $bai;
+
+    &:hover {
+        background: $huang;
+        color: $hei;
+    }
+}
+
+.btn-primary-examdesc {
+    width: px2rem(400px);
+    height: px2rem(80px);
+    margin: px2rem(20px) auto;
+    font: px2rem(30px) / px2rem(80px) "Microsoft Yahei", sans-serif;
+    background: $zi;
+    color: $bai;
+
+    &:hover {
+        width: px2rem(396px);
+        border: px2rem(2px) solid $zi;
+        background: $danzi;
+    }
+}
+
+.btn-primary-ys {
+    width: px2rem(400px);
+    height: px2rem(80px);
+    margin: px2rem(30px) auto px2rem(20px);
+    background: $zi;
+    line-height: px2rem(80px);
+    color: $bai;
+
+    &:hover {
+        background: $danzi;
+    }
+}
+
+.btn-primary-tf {
+    width: px2rem(400px);
+    height: px2rem(80px);
+    margin: px2rem(30px) auto px2rem(20px);
+    background: $cheng;
+    line-height: px2rem(80px);
+    color: $bai;
+
+    &:hover {
+        background: $dancheng;
+    }
+}

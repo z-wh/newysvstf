@@ -1,0 +1,208 @@
+#tittle-summary {
+    width: px2rem(690px);
+    height: px2rem(100px);
+    margin: px2rem(20px) auto;
+    background: url('/images/tittle-summary.png') no-repeat center center;
+    background-size: cover;
+}
+
+.kemu {
+    width: px2rem(750px);
+    height: px2rem(390px);
+    background: $huang-bg;
+    background-size: cover;
+
+    .summary-kemu {
+        float: left;
+        width: px2rem(306px);
+        height: px2rem(256px);
+
+        a {
+            display: block;
+            float: left;
+            width: px2rem(153px);
+            height: px2rem(128px);
+        }
+    }
+
+    .summary-kemu-ielts {
+        margin: px2rem(65px) 0 0 px2rem(45px);
+
+        a {
+
+            &:first-child {
+                background: url('/images/summary_01_01.png') no-repeat center center;
+                background-size: cover;
+            }
+
+            &:nth-child(2) {
+                background: url('/images/summary_01_02.png') no-repeat center center;
+                background-size: cover;
+            }
+
+            &:nth-child(3) {
+                background: url('/images/summary_01_03.png') no-repeat center center;
+                background-size: cover;
+            }
+
+            &:nth-child(4) {
+                background: url('/images/summary_01_04.png') no-repeat center center;
+                background-size: cover;
+            }
+
+        }
+
+    }
+
+    .summary-kemu-tofel {
+        float: right;
+        margin: px2rem(65px) px2rem(45px) 0 0;
+
+        a {
+
+            &:first-child {
+                background: url('/images/summary_02_01.png') no-repeat center center;
+                background-size: cover;
+            }
+
+            &:nth-child(2) {
+                background: url('/images/summary_02_02.png') no-repeat center center;
+                background-size: cover;
+            }
+
+            &:nth-child(3) {
+                background: url('/images/summary_02_03.png') no-repeat center center;
+                background-size: cover;
+            }
+
+            &:nth-child(4) {
+                background: url('/images/summary_02_04.png') no-repeat center center;
+                background-size: cover;
+            }
+
+
+        }
+    }
+}
+
+.summary-slide {
+
+    img {
+        width: px2rem(750px);
+    }
+}
+
+.score {
+    width: px2rem(750px);
+    height: px2rem(390px);
+    background: url('/images/summary_02.png') no-repeat center center;
+    background-size: cover;
+
+    a:first-child {
+        float: left;
+        margin: px2rem(310px) auto auto px2rem(40px);
+        background: $zi;
+        color: $bai;
+
+        &:hover {
+            width: px2rem(296px);
+            height: px2rem(56px);
+            background: $danzi;
+            border: px2rem(2px) solid $zi;
+        }
+    }
+
+    a:last-child {
+        float: right;
+        margin: px2rem(310px) px2rem(40px) auto auto;
+        background: $cheng;
+        color: $bai;
+
+        &:hover {
+            background: $dancheng;
+        }
+    }
+}
+
+.charge {
+    width: px2rem(750px);
+    height: px2rem(390px);
+    background: url('/images/summary_03.png') no-repeat center center;
+    background-size: cover;
+
+    a:first-child {
+        float: left;
+        margin: px2rem(300px) auto auto px2rem(50px);
+        background: $zi;
+        color: $bai;
+
+        &:hover {
+            width: px2rem(296px);
+            height: px2rem(56px);
+            background: $danzi;
+            border: px2rem(2px) solid $zi;
+        }
+    }
+
+    a:last-child {
+        float: right;
+        margin: px2rem(300px) px2rem(50px) auto auto;
+        background: $cheng;
+        color: $bai;
+
+        &:hover {
+            background: $dancheng;
+        }
+    }
+}
+
+.standard {
+    width: px2rem(750px);
+    height: px2rem(390px);
+    background: url('/images/summary_04.png') no-repeat center center;
+    background-size: cover;
+
+    a {
+        &:first-child {
+            float: left;
+            width: px2rem(256px);
+            height: px2rem(196px);
+            margin: px2rem(104px) auto auto px2rem(110px);
+            background: none;
+        }
+
+        &:nth-child(2) {
+            float: left;
+            width: px2rem(256px);
+            height: px2rem(196px);
+            margin: px2rem(104px) auto auto px2rem(97px);
+            background: none;
+        }
+
+        &:nth-child(3) {
+            float: left;
+            margin: px2rem(12px) auto auto px2rem(50px);
+            background: $zi;
+            color: $bai;
+
+            &:hover {
+                width: px2rem(296px);
+                height: px2rem(56px);
+                background: $danzi;
+                border: px2rem(2px) solid $zi;
+            }
+        }
+
+        &:last-child {
+            float: right;
+            margin: px2rem(12px) px2rem(50px) auto auto;
+            background: $cheng;
+            color: $bai;
+
+            &:hover {
+                background: $dancheng;
+            }
+        }
+
+    }
+}

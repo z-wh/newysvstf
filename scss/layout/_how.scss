@@ -1,0 +1,56 @@
+#tittle-how {
+    width: px2rem(690px);
+    height: px2rem(100px);
+    margin: px2rem(20px) auto;
+    background: url('/images/tittle-how.png') no-repeat center center;
+    background-size: cover;
+}
+
+.how-container {
+   width: px2rem(610px);
+   margin: 0 auto px2rem(40px);
+   padding: px2rem(40px);
+   border: px2rem(2px) solid $cheng;
+   border-top: 0;
+   border-radius: 0 0 px2rem(10px) px2rem(10px);
+   box-shadow: 0 0 px2rem(20px) $shenhui;
+
+   li {
+       margin: px2rem(10px) 0;
+       font: bold px2rem(32px) / px2rem(60px) "Microsoft Yahei", sans-serif;
+       color: $cheng;
+
+       span {
+           float: left;
+           display: block;
+           width: px2rem(300px);
+       }
+
+       a {
+           float: right;
+           background: $cheng;
+           color: $bai;
+
+           &:hover {
+               background: $dancheng;
+           }
+       }
+   }
+}
+
+.how-container-tofel {
+    border-color: $zi;
+
+    li {
+        color: $zi;
+
+        a {
+            background: $zi;
+
+            &:hover {
+                background: $danzi;
+            }
+        }
+    }
+
+}

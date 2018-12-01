@@ -1,0 +1,18 @@
+@function px2rem($px) {
+	$rem: 75px;
+	@return ($px / $rem) + rem;
+}
+
+@mixin hd {
+	width: px2rem(750px);
+	height: px2rem(110px);
+	background-size: contain;
+}
+
+@mixin biaoti($w:750px, $h:110px, $img:'01.jpg') {
+	width: px2rem($w);
+    height: px2rem($h);
+    background: url('../images/indexyd_' + $img) center center no-repeat;
+    background-size: contain;
+    margin: px2rem(10px) 0;
+}

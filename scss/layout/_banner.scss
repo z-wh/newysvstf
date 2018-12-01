@@ -1,0 +1,21 @@
+.banner {
+    width: px2rem(750px);
+    height: px2rem(520px);
+    background: url('/images/indexyd_01.jpg') no-repeat center center;
+    background-size: cover;
+
+    .btn-primary {
+        float: left;
+        width: px2rem(326px);
+        height: px2rem(65px);
+        line-height: px2rem(65px);
+        margin: px2rem(394px) 0 0 px2rem(394px);
+        background-color: $huang;
+        color: $zi;
+
+        &:hover {
+            background-color: $cheng;
+            color: $bai;
+        }
+    }
+}

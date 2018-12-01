@@ -1,0 +1,44 @@
+.yuyue {
+    width: px2rem(690px);
+    margin: px2rem(20px) auto;
+    padding: px2rem(30px) 0;
+    border-radius: px2rem(30px);
+    background: url('/images/form_bg.png') repeat-y top center;
+
+    p {
+        display: block;
+        width: px2rem(442px);
+        margin: 0 auto px2rem(20px);
+        font: px2rem(36px) / 1.5em "Microsoft Yahei", sans-serif;
+        color: $bai;
+
+        b {
+            color: $zi;
+        }
+    }
+
+    input {
+        display: block;
+        width: px2rem(500px);
+        height: px2rem(70px);
+        margin: px2rem(20px) auto;
+        font: px2rem(30px) / px2rem(70px) "Microsoft Yahei", sans-serif;
+        text-indent: px2rem(24px);
+        border-radius: px2rem(10px);
+    }
+
+    a {
+        display: block;
+        width: px2rem(500px);
+        height: px2rem(70px);
+        margin: px2rem(20px) auto;
+        background: $baicheng;
+        font: px2rem(30px) / px2rem(70px) "Microsoft Yahei", sans-serif;
+        text-align: center;
+        border-radius: px2rem(10px);
+
+        &:hover {
+            background: $huang;
+        }
+    }
+}

@@ -1,6 +1,6 @@
 .tab-nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: px2rem(750px);
     height: px2rem(85px);
     background-color: $cheng;
@@ -8,14 +8,20 @@
     color: $bai;
     text-align: center;
 
+    li {
+        padding: 0 px2rem(5px);
+        flex-grow: 1;
+    }
+
     a {
         display: block;
         color: $bai;
 
-        &:active {
-            background: $shenhuang;
-            color: $hei;
-        }
+    }
+
+    .actived {
+        background: $shenhuang;
+        color: $hei;
     }
 
 }

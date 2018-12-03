@@ -6,6 +6,26 @@
     background-size: cover;
 }
 
+.course-name {
+    width: px2rem(694px);
+    height: px2rem(80px);
+    margin: 0 auto;
+
+    .course {
+        float: left;
+        width: 50%;
+        height: px2rem(80px);
+        background: $cheng;
+        font: px2rem(40px) / px2rem(80px) "Microsoft Yahei", sans-serif;
+        color: $bai;
+        text-align: center;
+
+        &:nth-child(2) {
+            background: $shenhuang;
+        }
+    }
+}
+
 .how-container {
    width: px2rem(610px);
    margin: 0 auto px2rem(40px);
@@ -18,12 +38,13 @@
    li {
        margin: px2rem(10px) 0;
        font: bold px2rem(32px) / px2rem(60px) "Microsoft Yahei", sans-serif;
-       color: $cheng;
+       color: $shenhuang;
 
        span {
            float: left;
            display: block;
-           width: px2rem(300px);
+           width: 50%;
+           color: $cheng;
        }
 
        a {

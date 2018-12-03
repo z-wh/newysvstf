@@ -29,12 +29,12 @@
 
 
     <ul class="tab-nav">
-        <li><a href="#tittle-what">雅思和托福是什么</a></li>
-        <li><a href="#tittle-contury">适用国家</a></li>
-        <li><a href="#tittle-examdesc">考试详情</a></li>
-        <li><a href="#tittle-summary">考试概况</a></li>
-        <li><a href="#tittle-exchange">分数换算</a></li>
-        <li><a href="#tittle-how">课程介绍</a></li>
+        <li><a onclick="document.getElementById('tittle-what').scrollIntoView();">雅思和托福是什么</a></li>
+        <li><a onclick="document.getElementById('tittle-contury').scrollIntoView();">适用国家</a></li>
+        <li><a onclick="document.getElementById('tittle-examdesc').scrollIntoView();">考试详情</a></li>
+        <li><a onclick="document.getElementById('tittle-summary').scrollIntoView();">考试概况</a></li>
+        <li><a onclick="document.getElementById('tittle-exchange').scrollIntoView();">分数换算</a></li>
+        <li><a onclick="document.getElementById('tittle-how').scrollIntoView();">课程介绍</a></li>
     </ul>
 
     <div id="tittle-what"></div>
@@ -185,51 +185,21 @@
     <div class="exchange"></div>
 
     <div id="tittle-how"></div>
-    <div class="swiper-container how-thumb">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide my-slide-thumb">雅思课程</div>
-            <div class="swiper-slide my-slide-thumb">托福课程</div>
-        </div>
+    <div class="course-name">
+        <div class="course">雅思课程</div>
+        <div class="course">托福课程</div>
     </div>
-    <div class="swiper-container how-slide">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <ul class="how-container how-container-ielts clearfix">
-                    <li class="clearfix"><span>雅思入门冲6分班</span><a class="btn-primary" onclick="doyoo.util.openChat('g=10066808');return false;"
-                            style=" cursor:pointer">在线咨询</a></li>
-                    <li class="clearfix"><span>雅思精品冲6分班</span><a class="btn-primary" onclick="doyoo.util.openChat('g=10066808');return false;" style=" cursor:pointer">在线咨询</a></li>
-                    <li class="clearfix"><span>雅思入门冲6.5分班</span><a class="btn-primary" onclick="doyoo.util.openChat('g=10066808');return false;"
-                            style=" cursor:pointer">在线咨询</a></li>
-                    <li class="clearfix"><span>雅思精品冲6.5分班</span><a class="btn-primary" onclick="doyoo.util.openChat('g=10066808');return false;"
-                            style=" cursor:pointer">在线咨询</a></li>
-                    <li class="clearfix"><span>雅思强化冲6.5分班</span><a class="btn-primary" onclick="doyoo.util.openChat('g=10066808');return false;"
-                            style=" cursor:pointer">在线咨询</a></li>
-                    <li class="clearfix"><span>雅思一对一</span><a class="btn-primary" onclick="doyoo.util.openChat('g=10066808');return false;"
-                            style=" cursor:pointer">在线咨询</a></li>
-                    <li class="clearfix"><span>雅思考前速递班</span><a class="btn-primary" onclick="doyoo.util.openChat('g=10066808');return false;"
-                            style=" cursor:pointer">在线咨询</a></li>
-                </ul>
-            </div>
-            <div class="swiper-slide">
-                <ul class="how-container how-container-tofel clearfix">
-                    <li class="clearfix"><span>托福起步冲90分班</span><a class="btn-primary" onclick="doyoo.util.openChat('g=10066808');return false;"
-                            style=" cursor:pointer">在线咨询</a></li>
-                    <li class="clearfix"><span>托福入门冲90分班</span><a class="btn-primary" onclick="doyoo.util.openChat('g=10066808');return false;"
-                            style=" cursor:pointer">在线咨询</a></li>
-                    <li class="clearfix"><span>托福精品冲90分班</span><a class="btn-primary" onclick="doyoo.util.openChat('g=10066808');return false;"
-                            style=" cursor:pointer">在线咨询</a></li>
-                    <li class="clearfix"><span>托福入门冲100分班</span><a class="btn-primary" onclick="doyoo.util.openChat('g=10066808');return false;"
-                            style=" cursor:pointer">在线咨询</a></li>
-                    <li class="clearfix"><span>托福精品冲100分班</span><a class="btn-primary" onclick="doyoo.util.openChat('g=10066808');return false;"
-                            style=" cursor:pointer">在线咨询</a></li>
-                    <li class="clearfix"><span>托福强化冲100分班</span><a class="btn-primary" onclick="doyoo.util.openChat('g=10066808');return false;"
-                            style=" cursor:pointer">在线咨询</a></li>
-                    <li class="clearfix"><span>托福一对一</span><a class="btn-primary" onclick="doyoo.util.openChat('g=10066808');return false;"
-                            style=" cursor:pointer">在线咨询</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="swiper-pagination how-pagination"></div>
+    <div class="how-slide">
+        <ul class="how-container how-container-ielts clearfix">
+            <li class="clearfix"><span>雅思入门冲6分班</span>托福起步冲90分班</li>
+            <li class="clearfix"><span>雅思精品冲6分班</span>托福入门冲90分班</li>
+            <li class="clearfix"><span>雅思入门冲6.5分班</span>托福精品冲90分班</li>
+            <li class="clearfix"><span>雅思精品冲6.5分班</span>托福入门冲100分班</li>
+            <li class="clearfix"><span>雅思强化冲6.5分班</span>托福精品冲100分班</li>
+            <li class="clearfix"><span>雅思一对一</span>托福强化冲100分班</li>
+            <li class="clearfix"><span>雅思考前速递班</span>托福一对一</li>
+        </ul>
+        <a class="btn-primary btn-primary-tf" onclick="doyoo.util.openChat('g=10066808');return false;" style=" cursor:pointer">在线咨询</a>
     </div>
 
     <div class="plan">

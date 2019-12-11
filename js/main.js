@@ -1,4 +1,13 @@
-$(function() {
+$(function () {
+    $('.yuyue').listenForm({
+        siteId: 16,
+        contentName: '雅思VS托福领取机经msem',
+        submitTarget: '#submit',
+        successFun: function () {
+            alert('您已成功提交！我们将在1个工作日内与您取得联系！谢谢！');
+        }
+    });
+
     var mySwiper = new Swiper('.gallery-top', {
         direction: 'horizontal', // 切换方向选项
         loop: true, // 循环模式选项
@@ -63,10 +72,10 @@ $(function() {
         }
     });
 
-    $(".tab-nav li").click(function(){
+    $(".tab-nav li").click(function () {
         $(this).addClass("actived").siblings().removeClass("actived");
 
-    })
+    });
 });
 
 function scrollTodiv (id, cls) {

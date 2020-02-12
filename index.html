@@ -171,7 +171,9 @@
     <div class="yuyue">
         <p>雅思托福考试机经<b>免费领取</b></p>
         <input type="text" name="name" autocomplete="no" placeholder="请输入您的姓名">
-        <input type="text" name="phone" autocomplete="no" placeholder="请输入您的手机号">
+        <input class="phone" type="text" name="phone" autocomplete="no" placeholder="请输入您的手机号">
+        <input type="text" class="yzmcode" name="yzmcode" placeholder="请输入短信验证码">
+        <a class="codetxt" id="btn-captcha">获取验证码</a>
         <a id="submit">立即领取</a>
     </div>
 
@@ -202,14 +204,10 @@
             style=" cursor:pointer">免费定制专属学习计划</a>
     </div>
 
-    <div class="footer">
-        <p class="footer_text_top">旗舰校区 : 延安路328号恒通大厦2-8层</p>
-        <p>&copy;版权所有 : 北京新航道教育文化发展有限责任公司</p>
-        <p>京ICP备05069206号</p>
-    </div>
-
     <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+    <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
     <script src="http://hz.xhd.cn/m/topic/hzsem/public/js/btn-bottom-fixed-zixun.js"></script>
+    <script src="http://hz.xhd.cn/m/topic/public/js/footer.js"></script>
     <script type="text/javascript" src="http://hz.xhd.cn/topic/public/js/listen.js"></script>
     <script type="text/javascript" charset="utf-8" src="vendor/swiper.js"></script>
     <script src="js/main.js" type="text/javascript" charset="utf-8"></script>

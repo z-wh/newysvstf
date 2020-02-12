@@ -4,9 +4,8 @@ $(function() {
         siteId: 13,
         contentName: '雅思托福机经领取msem',
         submitTarget: '#submit',
-        successFun: function () {
-            alert('您已成功提交！我们将在1个工作日内与您取得联系！谢谢！');
-        }
+        yzmRequired: true,
+        yzmTarget: '#btn-captcha',
     });
 
     var mySwiper = new Swiper('.gallery-top', {

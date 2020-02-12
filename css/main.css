@@ -23,29 +23,34 @@ p {
   list-style: none;
   margin: 0;
   padding: 0;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+}
 
 img {
   width: 100%;
   border: 0;
   display: block;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+}
 
 a {
   text-decoration: none;
-  color: #000; }
+  color: #000;
+}
 
 .clearfix {
-  zoom: 1; }
+  zoom: 1;
+}
 
 .clearfix::after {
   clear: both;
-  content: '.';
+  content: ".";
   display: block;
   width: 0;
   height: 0;
-  visibility: hidden; }
+  visibility: hidden;
+}
 
 .btn-primary {
   display: block;
@@ -54,9 +59,11 @@ a {
   background-color: #e2e2e2;
   font: 0.75rem/1.5rem "Microsoft Yahei", sans-serif;
   text-align: center;
-  border-radius: 0.25rem; }
-  .btn-primary:hover {
-    background: #9c9c9c; }
+  border-radius: 0.25rem;
+}
+.btn-primary:hover {
+  background: #9c9c9c;
+}
 
 .btn-primary-contury {
   width: 10rem;
@@ -65,10 +72,12 @@ a {
   font: 0.75rem/2rem "Microsoft Yahei", sans-serif;
   text-align: center;
   background: #ff9200;
-  color: #fff; }
-  .btn-primary-contury:hover {
-    background: #ffd300;
-    color: #000; }
+  color: #fff;
+}
+.btn-primary-contury:hover {
+  background: #ffd300;
+  color: #000;
+}
 
 .btn-primary-examdesc {
   width: 10rem;
@@ -76,11 +85,13 @@ a {
   margin: 0.5rem auto;
   font: 0.75rem/2rem "Microsoft Yahei", sans-serif;
   background: #271f34;
-  color: #fff; }
-  .btn-primary-examdesc:hover {
-    width: 9.9rem;
-    border: 0.05rem solid #271f34;
-    background: #4e465b; }
+  color: #fff;
+}
+.btn-primary-examdesc:hover {
+  width: 9.9rem;
+  border: 0.05rem solid #271f34;
+  background: #4e465b;
+}
 
 .btn-primary-ys {
   width: 10rem;
@@ -88,9 +99,11 @@ a {
   margin: 0.75rem auto 0.5rem;
   background: #271f34;
   line-height: 2rem;
-  color: #fff; }
-  .btn-primary-ys:hover {
-    background: #4e465b; }
+  color: #fff;
+}
+.btn-primary-ys:hover {
+  background: #4e465b;
+}
 
 .btn-primary-tf {
   width: 10rem;
@@ -98,26 +111,31 @@ a {
   margin: 0.75rem auto 0.5rem;
   background: #ff5d1a;
   line-height: 2rem;
-  color: #fff; }
-  .btn-primary-tf:hover {
-    background: #fd814a; }
+  color: #fff;
+}
+.btn-primary-tf:hover {
+  background: #fd814a;
+}
 
 .banner {
   width: 18.75rem;
   height: 13rem;
   background: url("../images/indexyd_01.jpg") no-repeat center center;
-  background-size: cover; }
-  .banner .btn-primary {
-    float: left;
-    width: 8.15rem;
-    height: 1.625rem;
-    line-height: 1.625rem;
-    margin: 9.85rem 0 0 9.85rem;
-    background-color: #ffd300;
-    color: #271f34; }
-    .banner .btn-primary:hover {
-      background-color: #ff5d1a;
-      color: #fff; }
+  background-size: cover;
+}
+.banner .btn-primary {
+  float: left;
+  width: 8.15rem;
+  height: 1.625rem;
+  line-height: 1.625rem;
+  margin: 9.85rem 0 0 9.85rem;
+  background-color: #ffd300;
+  color: #271f34;
+}
+.banner .btn-primary:hover {
+  background-color: #ff5d1a;
+  color: #fff;
+}
 
 .tab-nav {
   display: flex;
@@ -127,59 +145,72 @@ a {
   background-color: #ff5d1a;
   font: 0.55rem/2.125rem "Microsoft Yahei", sans-serif;
   color: #fff;
-  text-align: center; }
-  .tab-nav li {
-    padding: 0 0.125rem;
-    flex-grow: 1; }
-  .tab-nav a {
-    display: block;
-    color: #fff; }
-  .tab-nav .actived {
-    background: #ff9200;
-    color: #000; }
+  text-align: center;
+}
+.tab-nav li {
+  padding: 0 0.125rem;
+  flex-grow: 1;
+}
+.tab-nav a {
+  display: block;
+  color: #fff;
+}
+.tab-nav .actived {
+  background: #ff9200;
+  color: #000;
+}
 
 #tittle-what {
   width: 17.25rem;
   height: 2.5rem;
   margin: 0.5rem auto;
   background: url("../images/tittle-what.png") no-repeat center center;
-  background-size: cover; }
+  background-size: cover;
+}
 
 .con-what {
   width: 16.25rem;
   padding: 0.5rem;
   margin: 0.5rem auto;
   border-radius: 0.25rem;
-  box-shadow: 0 0 0.5rem #9c9c9c; }
-  .con-what img {
-    width: 16.25rem;
-    height: 9.8rem; }
-  .con-what span {
-    display: block;
-    width: 7.5rem;
-    height: 1.05rem;
-    margin: 0.625rem 0;
-    font: 0.625rem/1.05rem "Microsoft Yahei", sans-serif;
-    text-indent: 1.125rem;
-    color: #fff; }
-  .con-what .ys {
-    background: url("../images/indexyd_11.jpg") no-repeat center center;
-    background-size: cover; }
-  .con-what .tf {
-    background: url("../images/indexyd_16.jpg") no-repeat center center;
-    background-size: cover; }
-  .con-what p {
-    font: 0.625rem/1.5em "Microsoft Yahei", sans-serif; }
-  .con-what b {
-    display: block;
-    margin: 0.25rem 0;
-    height: 1rem;
-    background-color: #271f34;
-    line-height: 1rem;
-    text-align: center;
-    color: #fff; }
-  .con-what .tf-bt {
-    background-color: #ff5d1a; }
+  box-shadow: 0 0 0.5rem #9c9c9c;
+}
+.con-what img {
+  width: 16.25rem;
+  height: 9.8rem;
+}
+.con-what span {
+  display: block;
+  width: 7.5rem;
+  height: 1.05rem;
+  margin: 0.625rem 0;
+  font: 0.625rem/1.05rem "Microsoft Yahei", sans-serif;
+  text-indent: 1.125rem;
+  color: #fff;
+}
+.con-what .ys {
+  background: url("../images/indexyd_11.jpg") no-repeat center center;
+  background-size: cover;
+}
+.con-what .tf {
+  background: url("../images/indexyd_16.jpg") no-repeat center center;
+  background-size: cover;
+}
+.con-what p {
+  font: 0.625rem/1.5em "Microsoft Yahei", sans-serif;
+}
+.con-what b {
+  display: block;
+  margin: 0.25rem 0;
+  height: 1rem;
+  background-color: #271f34;
+  line-height: 1rem;
+  text-align: center;
+  color: #fff;
+}
+.con-what .tf-bt {
+  background-color: #ff5d1a;
+}
 
 .my-pagination-progressbar {
   background: #ffd300;
@@ -193,7 +224,8 @@ a {
   transform: scale(0);
   -webkit-transform-origin: left top;
   -ms-transform-origin: left top;
-  transform-origin: left top; }
+  transform-origin: left top;
+}
 
 .my-slide-thumb {
   width: 3rem;
@@ -201,7 +233,8 @@ a {
   background: #fd814a;
   font: 0.75rem/2rem "Microsoft Yahei", sans-serif;
   color: #fff;
-  text-align: center; }
+  text-align: center;
+}
 
 .my-slide-thumb-active {
   width: 3rem;
@@ -209,256 +242,317 @@ a {
   background: #ff5d1a;
   font: 0.75rem/2rem "Microsoft Yahei", sans-serif;
   color: #fff;
-  text-align: center; }
+  text-align: center;
+}
 
 .footer {
   width: 18.75rem;
   padding: 0.75rem 0 40px;
   background: #ff5d1a;
-  font: 0.45rem/1.6em "Microsoft Yahei", sans-serif;
+  font: 0.6rem/1.6em "Microsoft Yahei", sans-serif;
   color: #fff;
-  text-align: center; }
+  text-align: center;
+}
 
 .contury {
   background: #d7d6d9;
   margin: 0.5rem 0;
   padding: 0.75rem;
-  background-size: cover; }
-  .contury #tittle-contury {
-    width: 17.25rem;
-    height: 2.5rem;
-    margin: 0.5rem auto;
-    background: url("../images/tittle-contury.png") no-repeat center center;
-    background-size: cover; }
-  .contury img {
-    width: 15.2rem;
-    height: 10rem; }
+  background-size: cover;
+}
+.contury #tittle-contury {
+  width: 17.25rem;
+  height: 2.5rem;
+  margin: 0.5rem auto;
+  background: url("../images/tittle-contury.png") no-repeat center center;
+  background-size: cover;
+}
+.contury img {
+  width: 15.2rem;
+  height: 10rem;
+}
 
 #tittle-examdesc {
   width: 17.25rem;
   height: 2.5rem;
   margin: 0.5rem auto;
   background: url("../images/tittle-examdesc.png") no-repeat center center;
-  background-size: cover; }
+  background-size: cover;
+}
 
 .examdesc-slide img {
   width: 17.25rem;
-  margin: 0.5rem auto; }
+  margin: 0.5rem auto;
+}
 
 .examdesc-con {
   margin: 0 0 0.5rem;
-  background: #e2e2e2; }
+  background: #e2e2e2;
+}
 
 .examdesc-slide-thumb {
   height: 2rem;
   background: #fd814a;
   font: 0.75rem/2rem "Microsoft Yahei", sans-serif;
-  text-align: center; }
+  text-align: center;
+}
 
 #tittle-summary {
   width: 17.25rem;
   height: 2.5rem;
   margin: 0.5rem auto;
   background: url("../images/tittle-summary.png") no-repeat center center;
-  background-size: cover; }
+  background-size: cover;
+}
 
 .kemu {
   width: 18.75rem;
   height: 9.75rem;
   background: #fdaf47;
-  background-size: cover; }
-  .kemu .summary-kemu {
-    float: left;
-    width: 7.65rem;
-    height: 6.4rem; }
-    .kemu .summary-kemu a {
-      display: block;
-      float: left;
-      width: 3.825rem;
-      height: 3.2rem; }
-  .kemu .summary-kemu-ielts {
-    margin: 1.625rem 0 0 1.125rem; }
-    .kemu .summary-kemu-ielts a:first-child {
-      background: url("../images/summary_01_01.png") no-repeat center center;
-      background-size: cover; }
-    .kemu .summary-kemu-ielts a:nth-child(2) {
-      background: url("../images/summary_01_02.png") no-repeat center center;
-      background-size: cover; }
-    .kemu .summary-kemu-ielts a:nth-child(3) {
-      background: url("../images/summary_01_03.png") no-repeat center center;
-      background-size: cover; }
-    .kemu .summary-kemu-ielts a:nth-child(4) {
-      background: url("../images/summary_01_04.png") no-repeat center center;
-      background-size: cover; }
-  .kemu .summary-kemu-tofel {
-    float: right;
-    margin: 1.625rem 1.125rem 0 0; }
-    .kemu .summary-kemu-tofel a:first-child {
-      background: url("../images/summary_02_01.png") no-repeat center center;
-      background-size: cover; }
-    .kemu .summary-kemu-tofel a:nth-child(2) {
-      background: url("../images/summary_02_02.png") no-repeat center center;
-      background-size: cover; }
-    .kemu .summary-kemu-tofel a:nth-child(3) {
-      background: url("../images/summary_02_03.png") no-repeat center center;
-      background-size: cover; }
-    .kemu .summary-kemu-tofel a:nth-child(4) {
-      background: url("../images/summary_02_04.png") no-repeat center center;
-      background-size: cover; }
+  background-size: cover;
+}
+.kemu .summary-kemu {
+  float: left;
+  width: 7.65rem;
+  height: 6.4rem;
+}
+.kemu .summary-kemu a {
+  display: block;
+  float: left;
+  width: 3.825rem;
+  height: 3.2rem;
+}
+.kemu .summary-kemu-ielts {
+  margin: 1.625rem 0 0 1.125rem;
+}
+.kemu .summary-kemu-ielts a:first-child {
+  background: url("../images/summary_01_01.png") no-repeat center center;
+  background-size: cover;
+}
+.kemu .summary-kemu-ielts a:nth-child(2) {
+  background: url("../images/summary_01_02.png") no-repeat center center;
+  background-size: cover;
+}
+.kemu .summary-kemu-ielts a:nth-child(3) {
+  background: url("../images/summary_01_03.png") no-repeat center center;
+  background-size: cover;
+}
+.kemu .summary-kemu-ielts a:nth-child(4) {
+  background: url("../images/summary_01_04.png") no-repeat center center;
+  background-size: cover;
+}
+.kemu .summary-kemu-tofel {
+  float: right;
+  margin: 1.625rem 1.125rem 0 0;
+}
+.kemu .summary-kemu-tofel a:first-child {
+  background: url("../images/summary_02_01.png") no-repeat center center;
+  background-size: cover;
+}
+.kemu .summary-kemu-tofel a:nth-child(2) {
+  background: url("../images/summary_02_02.png") no-repeat center center;
+  background-size: cover;
+}
+.kemu .summary-kemu-tofel a:nth-child(3) {
+  background: url("../images/summary_02_03.png") no-repeat center center;
+  background-size: cover;
+}
+.kemu .summary-kemu-tofel a:nth-child(4) {
+  background: url("../images/summary_02_04.png") no-repeat center center;
+  background-size: cover;
+}
 
 .summary-slide img {
-  width: 18.75rem; }
+  width: 18.75rem;
+}
 
 .score {
   width: 18.75rem;
   height: 9.75rem;
   background: url("../images/summary_02.png") no-repeat center center;
-  background-size: cover; }
-  .score a:first-child {
-    float: left;
-    margin: 7.75rem auto auto 1rem;
-    background: #271f34;
-    color: #fff; }
-    .score a:first-child:hover {
-      width: 7.4rem;
-      height: 1.4rem;
-      background: #4e465b;
-      border: 0.05rem solid #271f34; }
-  .score a:last-child {
-    float: right;
-    margin: 7.75rem 1rem auto auto;
-    background: #ff5d1a;
-    color: #fff; }
-    .score a:last-child:hover {
-      background: #fd814a; }
+  background-size: cover;
+}
+.score a:first-child {
+  float: left;
+  margin: 7.75rem auto auto 1rem;
+  background: #271f34;
+  color: #fff;
+}
+.score a:first-child:hover {
+  width: 7.4rem;
+  height: 1.4rem;
+  background: #4e465b;
+  border: 0.05rem solid #271f34;
+}
+.score a:last-child {
+  float: right;
+  margin: 7.75rem 1rem auto auto;
+  background: #ff5d1a;
+  color: #fff;
+}
+.score a:last-child:hover {
+  background: #fd814a;
+}
 
 .charge {
   width: 18.75rem;
   height: 9.75rem;
   background: url("../images/summary_03.png") no-repeat center center;
-  background-size: cover; }
-  .charge a:first-child {
-    float: left;
-    margin: 7.5rem auto auto 1.25rem;
-    background: #271f34;
-    color: #fff; }
-    .charge a:first-child:hover {
-      width: 7.4rem;
-      height: 1.4rem;
-      background: #4e465b;
-      border: 0.05rem solid #271f34; }
-  .charge a:last-child {
-    float: right;
-    margin: 7.5rem 1.25rem auto auto;
-    background: #ff5d1a;
-    color: #fff; }
-    .charge a:last-child:hover {
-      background: #fd814a; }
+  background-size: cover;
+}
+.charge a:first-child {
+  float: left;
+  margin: 7.5rem auto auto 1.25rem;
+  background: #271f34;
+  color: #fff;
+}
+.charge a:first-child:hover {
+  width: 7.4rem;
+  height: 1.4rem;
+  background: #4e465b;
+  border: 0.05rem solid #271f34;
+}
+.charge a:last-child {
+  float: right;
+  margin: 7.5rem 1.25rem auto auto;
+  background: #ff5d1a;
+  color: #fff;
+}
+.charge a:last-child:hover {
+  background: #fd814a;
+}
 
 .standard {
   width: 18.75rem;
   height: 9.75rem;
   background: url("../images/summary_04.png") no-repeat center center;
-  background-size: cover; }
-  .standard a:first-child {
-    float: left;
-    width: 6.4rem;
-    height: 4.9rem;
-    margin: 2.6rem auto auto 2.75rem;
-    background: none; }
-  .standard a:nth-child(2) {
-    float: left;
-    width: 6.4rem;
-    height: 4.9rem;
-    margin: 2.6rem auto auto 2.425rem;
-    background: none; }
-  .standard a:nth-child(3) {
-    float: left;
-    margin: 0.3rem auto auto 1.25rem;
-    background: #271f34;
-    color: #fff; }
-    .standard a:nth-child(3):hover {
-      width: 7.4rem;
-      height: 1.4rem;
-      background: #4e465b;
-      border: 0.05rem solid #271f34; }
-  .standard a:last-child {
-    float: right;
-    margin: 0.3rem 1.25rem auto auto;
-    background: #ff5d1a;
-    color: #fff; }
-    .standard a:last-child:hover {
-      background: #fd814a; }
+  background-size: cover;
+}
+.standard a:first-child {
+  float: left;
+  width: 6.4rem;
+  height: 4.9rem;
+  margin: 2.6rem auto auto 2.75rem;
+  background: none;
+}
+.standard a:nth-child(2) {
+  float: left;
+  width: 6.4rem;
+  height: 4.9rem;
+  margin: 2.6rem auto auto 2.425rem;
+  background: none;
+}
+.standard a:nth-child(3) {
+  float: left;
+  margin: 0.3rem auto auto 1.25rem;
+  background: #271f34;
+  color: #fff;
+}
+.standard a:nth-child(3):hover {
+  width: 7.4rem;
+  height: 1.4rem;
+  background: #4e465b;
+  border: 0.05rem solid #271f34;
+}
+.standard a:last-child {
+  float: right;
+  margin: 0.3rem 1.25rem auto auto;
+  background: #ff5d1a;
+  color: #fff;
+}
+.standard a:last-child:hover {
+  background: #fd814a;
+}
 
 .yuyue {
   width: 17.25rem;
   margin: 0.5rem auto;
   padding: 0.75rem 0;
+  text-align: center;
   border-radius: 0.75rem;
-  background: url("../images/form_bg.png") repeat-y top center; }
-  .yuyue p {
-    display: block;
-    width: 11.05rem;
-    margin: 0 auto 0.5rem;
-    font: 0.9rem/1.5em "Microsoft Yahei", sans-serif;
-    color: #fff; }
-    .yuyue p b {
-      color: #271f34; }
-  .yuyue input {
-    display: block;
-    width: 12.5rem;
-    height: 1.75rem;
-    margin: 0.5rem auto;
-    font: 0.75rem/1.75rem "Microsoft Yahei", sans-serif;
-    text-indent: 0.6rem;
-    border-radius: 0.25rem; }
-  .yuyue a {
-    display: block;
-    width: 12.5rem;
-    height: 1.75rem;
-    margin: 0.5rem auto;
-    background: #ffb08d;
-    font: 0.75rem/1.75rem "Microsoft Yahei", sans-serif;
-    text-align: center;
-    border-radius: 0.25rem; }
-    .yuyue a:hover {
-      background: #ffd300; }
+  background: url("../images/form_bg.png") repeat-y top center;
+}
+.yuyue p {
+  display: block;
+  width: 11.05rem;
+  margin: 0 auto 0.5rem;
+  font: 0.9rem/1.5em "Microsoft Yahei", sans-serif;
+  color: #fff;
+}
+.yuyue p b {
+  color: #271f34;
+}
+.yuyue input {
+  display: inline-block;
+  width: 12.5rem;
+  height: 1.75rem;
+  margin: 0.25rem auto;
+  font: 0.75rem/1.75rem "Microsoft Yahei", sans-serif;
+  text-indent: 0.6rem;
+  border-radius: 0.25rem;
+}
+.yuyue .yzmcode {
+  width: 7.25rem;
+}
+.yuyue .codetxt {
+  display: inline-block;
+  width: 5rem;
+}
+.yuyue a {
+  display: block;
+  width: 12.5rem;
+  height: 1.75rem;
+  margin: 0.5rem auto;
+  background: #ffb08d;
+  font: 0.75rem/1.75rem "Microsoft Yahei", sans-serif;
+  text-align: center;
+  border-radius: 0.25rem;
+}
+.yuyue a:hover {
+  background: #ffd300;
+}
 
 #tittle-exchange {
   width: 17.25rem;
   height: 2.5rem;
   margin: 0.5rem auto;
   background: url("../images/tittle-exchange.png") no-repeat center center;
-  background-size: cover; }
+  background-size: cover;
+}
 
 .exchange {
   width: 18.75rem;
   height: 19.25rem;
   margin: 0.5rem auto;
   background: url("../images/exchange_bg.png") no-repeat center center;
-  background-size: cover; }
+  background-size: cover;
+}
 
 #tittle-how {
   width: 17.25rem;
   height: 2.5rem;
   margin: 0.5rem auto;
   background: url("../images/tittle-how.png") no-repeat center center;
-  background-size: cover; }
+  background-size: cover;
+}
 
 .course-name {
   width: 17.35rem;
   height: 2rem;
-  margin: 0 auto; }
-  .course-name .course {
-    float: left;
-    width: 50%;
-    height: 2rem;
-    background: #ff5d1a;
-    font: 1rem/2rem "Microsoft Yahei", sans-serif;
-    color: #fff;
-    text-align: center; }
-    .course-name .course:nth-child(2) {
-      background: #ff9200; }
+  margin: 0 auto;
+}
+.course-name .course {
+  float: left;
+  width: 50%;
+  height: 2rem;
+  background: #ff5d1a;
+  font: 1rem/2rem "Microsoft Yahei", sans-serif;
+  color: #fff;
+  text-align: center;
+}
+.course-name .course:nth-child(2) {
+  background: #ff9200;
+}
 
 .how-container {
   width: 15.25rem;
@@ -467,47 +561,59 @@ a {
   border: 0.05rem solid #ff5d1a;
   border-top: 0;
   border-radius: 0 0 0.25rem 0.25rem;
-  box-shadow: 0 0 0.5rem #9c9c9c; }
-  .how-container li {
-    margin: 0.25rem 0;
-    font: bold 0.8rem/1.5rem "Microsoft Yahei", sans-serif;
-    color: #ff9200; }
-    .how-container li span {
-      float: left;
-      display: block;
-      width: 50%;
-      color: #ff5d1a; }
-    .how-container li a {
-      float: right;
-      background: #ff5d1a;
-      color: #fff; }
-      .how-container li a:hover {
-        background: #fd814a; }
+  box-shadow: 0 0 0.5rem #9c9c9c;
+}
+.how-container li {
+  margin: 0.25rem 0;
+  font: bold 0.8rem/1.5rem "Microsoft Yahei", sans-serif;
+  color: #ff9200;
+}
+.how-container li span {
+  float: left;
+  display: block;
+  width: 50%;
+  color: #ff5d1a;
+}
+.how-container li a {
+  float: right;
+  background: #ff5d1a;
+  color: #fff;
+}
+.how-container li a:hover {
+  background: #fd814a;
+}
 
 .how-container-tofel {
-  border-color: #271f34; }
-  .how-container-tofel li {
-    color: #271f34; }
-    .how-container-tofel li a {
-      background: #271f34; }
-      .how-container-tofel li a:hover {
-        background: #4e465b; }
+  border-color: #271f34;
+}
+.how-container-tofel li {
+  color: #271f34;
+}
+.how-container-tofel li a {
+  background: #271f34;
+}
+.how-container-tofel li a:hover {
+  background: #4e465b;
+}
 
 .plan {
   width: 17.75rem;
   height: 12.5rem;
   padding: 0.5rem;
   background: url("../images/plan_bg.jpg") no-repeat center center;
-  background-size: cover; }
-  .plan a {
-    width: 12.5rem;
-    height: 2rem;
-    margin: 9.175rem auto 0;
-    background: #ff9200;
-    line-height: 2rem;
-    color: #fff; }
-    .plan a:hover {
-      background: #ffd300;
-      color: #000; }
+  background-size: cover;
+}
+.plan a {
+  width: 12.5rem;
+  height: 2rem;
+  margin: 9.175rem auto 0;
+  background: #ff9200;
+  line-height: 2rem;
+  color: #fff;
+}
+.plan a:hover {
+  background: #ffd300;
+  color: #000;
+}
 
 /*# sourceMappingURL=main.css.map */

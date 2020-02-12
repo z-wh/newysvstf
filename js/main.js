@@ -3,9 +3,8 @@ $(function () {
         siteId: 16,
         contentName: '雅思VS托福领取机经msem',
         submitTarget: '#submit',
-        successFun: function () {
-            alert('您已成功提交！我们将在1个工作日内与您取得联系！谢谢！');
-        }
+        yzmRequired: true,
+        yzmTarget: '#btn-captcha',
     });
 
     var mySwiper = new Swiper('.gallery-top', {

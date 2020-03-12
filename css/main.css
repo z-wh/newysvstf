@@ -616,4 +616,68 @@ a {
   color: #000;
 }
 
+#title-course {
+  width: 17.25rem;
+  height: 2.025rem;
+  margin: 0.5rem auto;
+  background: url("../images/title-course.png") no-repeat center;
+  background-size: cover;
+}
+
+.course-tabbar {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0.75rem;
+}
+.course-tabbar li {
+  padding: 0.25rem 2.25rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #9c9c9c;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.course-tabbar .active:first-child {
+  background-color: #ff9200;
+}
+.course-tabbar .active:last-child {
+  background-color: #ff5d1a;
+}
+
+.course-tab-content {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+.course-tab-content.current {
+  display: flex;
+}
+
+.course-tab-content-item {
+  width: 7.7rem;
+  margin: 0.125rem 0;
+}
+.course-tab-content-item dt {
+  padding: 0.25rem;
+  font-size: 0.7rem;
+  color: #fff;
+  background-color: #ff9200;
+}
+.course-tab-content-item dd {
+  padding: 0.25rem;
+  font-size: 0.6rem;
+  color: #ff9200;
+  border: 0.05rem solid #ff9200;
+}
+
+.course-toefl dt {
+  background-color: #ff5d1a;
+}
+.course-toefl dd {
+  color: #ff5d1a;
+  border-color: #ff5d1a;
+}
+
 /*# sourceMappingURL=main.css.map */

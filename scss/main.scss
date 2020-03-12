@@ -14,3 +14,78 @@
 @import 'layout/how';
 @import 'layout/plan';
 
+// scss-lint:disable IdSelector
+#title-course {
+    width: px2rem(690px);
+    height: px2rem(81px);
+    margin: px2rem(20px) auto;
+    background: url('../images/title-course.png') no-repeat center;
+    background-size: cover;
+}
+
+.course-tabbar {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: px2rem(30px);
+
+    li {
+        padding: px2rem(10px) px2rem(90px);
+        font-size: px2rem(32px);
+        font-weight: bold;
+        color: $bai;
+        background-color: $shenhui;
+        border-radius: px2rem(10px);
+        cursor: pointer;
+    }
+
+    .active {
+        &:first-child {
+            background-color: $shenhuang;
+        }
+
+        &:last-child {
+            background-color: $cheng;
+        }
+    }
+}
+
+.course-tab-content {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+
+    &.current {
+        display: flex;
+    }
+}
+
+.course-tab-content-item {
+    width: px2rem(308px);
+    margin: px2rem(5px) 0;
+
+    dt {
+        padding: px2rem(10px);
+        font-size: px2rem(28px);
+        color: $bai;
+        background-color: $shenhuang;
+    }
+
+    dd {
+        padding: px2rem(10px);
+        font-size: px2rem(24px);
+        color: $shenhuang;
+        border: px2rem(2px) solid $shenhuang;
+    }
+}
+
+.course-toefl {
+    dt {
+        background-color: $cheng;
+    }
+
+    dd {
+        color: $cheng;
+        border-color: $cheng;
+    }
+}

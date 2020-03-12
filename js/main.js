@@ -75,6 +75,12 @@ $(function() {
     $(".tab-nav li").click(function () {
         $(this).addClass("actived").siblings().removeClass("actived");
     });
+
+    $('.course-tabbar li').click(function () {
+        var index = $(this).index();
+        $(this).addClass('active').siblings().removeClass('active');
+        $('.course-tab-content').eq(index).addClass('current').siblings().removeClass('current');
+    });
 });
 
 function scrollTodiv (id, cls) {
